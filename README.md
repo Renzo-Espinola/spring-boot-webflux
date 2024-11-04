@@ -64,7 +64,7 @@ La aplicación incluye las siguientes rutas principales:
 - `controller/` - Controladores Spring MVC para manejar las rutas y la lógica del frontend.
 - `models/` - Modelos de MongoDB que representan la entidad `Producto`.
 - `dao/` - Repositorio reactivo que maneja las interacciones con MongoDB.
-- `service/` - Repositorio reactivo que maneja las interacciones con MongoDB.
+- `service/` - Clase interface service y su implementación cumple función de capa para el DAO.
 
 ## Contribuciones
 
